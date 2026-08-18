@@ -1,0 +1,30 @@
+[
+  {
+    "model": "finance.chargeconcept",
+    "pk": 1,
+    "fields": {
+      "code": "INSC",
+      "name": "Inscripción",
+      "category": "enrollment",
+      "description": "Pago de inscripción",
+      "default_amount": "1500.00",
+      "active": true,
+      "created_at": "2026-06-14T00:00:00Z",
+      "updated_at": "2026-06-14T00:00:00Z"
+    }
+  },
+  {
+    "model": "finance.chargeconcept",
+    "pk": 2,
+    "fields": {
+      "code": "COL",
+      "name": "Colegiatura",
+      "category": "tuition",
+      "description": "Pago de colegiatura",
+      "default_amount": "2500.00",
+      "active": true,
+      "created_at": "2026-06-14T00:00:00Z",
+      "updated_at": "2026-06-14T00:00:00Z"
+    }
+  }
+]

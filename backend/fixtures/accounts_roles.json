@@ -1,0 +1,35 @@
+[
+  {
+    "model": "accounts.role",
+    "pk": 1,
+    "fields": {
+      "code": "admin",
+      "name": "Administrador",
+      "description": "Acceso total al sistema",
+      "created_at": "2026-05-14T00:00:00Z",
+      "updated_at": "2026-05-14T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.role",
+    "pk": 2,
+    "fields": {
+      "code": "teacher",
+      "name": "Profesor",
+      "description": "Docente del sistema",
+      "created_at": "2026-05-14T00:00:00Z",
+      "updated_at": "2026-05-14T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.role",
+    "pk": 3,
+    "fields": {
+      "code": "student",
+      "name": "Alumno",
+      "description": "Estudiante del sistema",
+      "created_at": "2026-05-14T00:00:00Z",
+      "updated_at": "2026-05-14T00:00:00Z"
+    }
+  }
+]

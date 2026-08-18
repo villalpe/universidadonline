@@ -1,0 +1,72 @@
+[
+  {
+    "model": "academics.career",
+    "pk": 1,
+    "fields": {
+      "code": "ISC",
+      "name": "Licenciatura en Desarollo de Software",
+      "description": "Carrera enfocada en desarrollo de software.",
+      "duration_months": 36,
+      "active": true,
+      "created_at": "2026-05-14T00:00:00Z",
+      "updated_at": "2026-05-14T00:00:00Z"
+    }
+  },
+  {
+    "model": "academics.studyplan",
+    "pk": 1,
+    "fields": {
+      "career": 1,
+      "code": "ISC-2026",
+      "name": "Plan 2026 Licenciatura Desarollo de Software",
+      "version": "2026.1",
+      "effective_date": "2026-06-01",
+      "active": true,
+      "created_at": "2026-05-14T00:00:00Z",
+      "updated_at": "2026-05-14T00:00:00Z"
+    }
+  },
+  {
+    "model": "academics.subject",
+    "pk": 1,
+    "fields": {
+      "code": "MAT101",
+      "name": "Matemáticas Aplicadas",
+      "description": "Fundamentos matemáticos.",
+      "credits": 8,
+      "weekly_hours": 5,
+      "active": true,
+      "created_at": "2026-05-14T00:00:00Z",
+      "updated_at": "2026-05-14T00:00:00Z"
+    }
+  },
+  {
+    "model": "academics.studyplansubject",
+    "pk": 1,
+    "fields": {
+      "study_plan": 1,
+      "subject": 1,
+      "cycle_number": 1,
+      "order": 1,
+      "mandatory": true,
+      "passing_grade": 70.0,
+      "created_at": "2026-05-14T00:00:00Z",
+      "updated_at": "2026-05-14T00:00:00Z"
+    }
+  },
+  {
+    "model": "academics.academicperiod",
+    "pk": 1,
+    "fields": {
+      "code": "2026-1",
+      "name": "Enero - Abril 2026",
+      "start_date": "2026-06-01",
+      "end_date": "2026-10-30",
+      "enrollment_start": "2026-05-01",
+      "enrollment_end": "2026-05-31",
+      "status": "active",
+      "created_at": "2026-05-14T00:00:00Z",
+      "updated_at": "2026-05-14T00:00:00Z"
+    }
+  }
+]
